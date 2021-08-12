@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 /* font-family: 'Staatliches', cursive; */
 
-p, a {
+p,
+a {
 
     font-family: 'Staatliches', cursive;
-    font-size:16px;
+    font-size: 16px;
 }
 
 a {
-    display:block;
+    display: block;
     text-decoration: none;
 }
 
 .btn-1 {
 
     background-color: rgb(167, 17, 17);
-    color:  #fff;
-    padding:1vw;
-    margin:10vh auto;
-    width:20vw;
+    color: #fff;
+    padding: 1vw;
+    margin: 10vh auto;
+    width: 20vw;
     text-align: center;
-    font-size:2em;
-    border-radius:5vw;
+    font-size: 2em;
+    border-radius: 5vw;
     /* tranformation */
     transform: scale(1);
     transition: transform 400ms;
@@ -30,4 +31,50 @@ a {
 .btn-1:hover {
 
     transform: scale(2.25);
+}
+
+.btn-2 {
+
+    background-color: rgb(167, 17, 17);
+    color: #fff;
+    padding: 1vw;
+    margin: 10vh auto;
+    width: 20vw;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5vw;
+    /* tranformation */
+    transition: all 4000ms;
+
+}
+
+.btn-2:hover {
+
+    transform: scale(2);
+    background-color: green;
+    color: yellow;
+    border-radius: 0;
+
+}
+
+.btn-3 {
+    background-color: rgb(167, 17, 17);
+    color: #fff;
+    padding: 1vw;
+    margin: 10vh auto;
+    width: 20vw;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5vw;
+    /* tranformation */
+
+}
+
+.btn-3 :hover {
+    transform: scale(2);
+    background-color: wheat;
+    color: rgb(167, 17, 17);
+
+
+
 }
